@@ -11,6 +11,10 @@ header{
 h1{
     font-size: 4rem;
 }
+ul{
+    font-size: 4rem;
+    text-align: end;
+}
 body{
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
