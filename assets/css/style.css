@@ -1,0 +1,57 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 0; 
+}
+
+.container {
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: auto;
+    padding: 100px;
+    
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+td {
+    width: 200px;
+}
+td img {
+    width: 100%;
+    border: 3px;
+}
+
+
+
+td p {
+    text-align:justify;
+    padding-left: 2rem;
+}
+
+footer {
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
