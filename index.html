@@ -216,7 +216,7 @@
                 </div>
 
                 <div class="my-3 text-end">
-                        <button type="submit" class="btn btn-info text-light">Enviar</button>
+                        <button type="submit" onclick="clicked(event)" class="btn btn-info text-light">Enviar</button>
                 </div>
             </form>
 
@@ -228,7 +228,12 @@
             <p class="mb-0">Jonathan Moya 2022. Todos los derechos reservados.</p>
         </footer>
 
-
+        <script>
+            function clicked(e)
+            {
+                if(!confirm('Esta seguro de enviar formulario de contacto'))e.preventDefault();
+            }
+            </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
